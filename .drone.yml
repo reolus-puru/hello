@@ -4,7 +4,7 @@ name: default
 
 steps:
 - name: build
-  image: golang
+  image: redis
   commands:
   - go build
   - go test
